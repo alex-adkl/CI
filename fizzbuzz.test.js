@@ -3,5 +3,5 @@ const assert = require("node:assert");
 const { fizzbuzz } = require("./fizzbuzz.js");
 
 test("fizzbuzz(4)", () => {
-  assert.strictEqual(fizzbuzz(4), "Fizz");
+  assert.strictEqual(fizzbuzz(3), "Fizz");
 });
